@@ -1,0 +1,78 @@
+.create_product_container {
+	padding: 20px;
+	background-color:rgb(241, 238, 234);
+	color: #566a7f;
+	width: 30%;
+	margin: 0 auto;
+}
+
+.create_product_container h1 {
+	text-align: center;
+}
+
+.create_product_container form label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.create_product_container form input:not([type="file"]) {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: solid 1px black;
+	background: transparent;
+	margin-bottom: 20px;
+}
+
+.create_product_container form input:not([type="file"]):focus {
+	outline: none;
+	border-bottom: solid 1px steelblue;
+}
+
+.create_product_input_invalid {
+	border-bottom: solid 1px red;
+}
+
+.create_product_container form textarea {
+	background: transparent;
+	margin-bottom: 20px;
+}
+
+.create_product_container form textarea:focus {
+	outline: none;
+	border-color: steelblue;
+}
+
+.create_product_container form select {
+	margin-bottom: 20px;
+	padding: 10px;
+	color: #566a7f;
+	border: none;
+	outline: none;
+}
+
+.create_product_container form select:hover {
+	cursor: pointer;
+	border-color: #566a7f;
+}
+
+.create_product_container form input[type="file"] {
+	margin-bottom: 20px;
+}
+
+.create_product_container form button {
+	display: block;
+	margin: 0 auto;
+	background-color: steelblue;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+	transition: all 0.5s ease 0s;
+}
+
+.create_product_container form button:hover {
+	background-color: white;
+	color: steelblue;
+
+}
